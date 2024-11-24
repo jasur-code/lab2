@@ -10,4 +10,6 @@ while money_capital > 0:
         break
     spend = spend * (1 + increase)
     count += 1
+if count//10>0:
+    count+=1
 print("Количество месяцев, которое можно протянуть без долгов:", count)
